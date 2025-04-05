@@ -1,0 +1,184 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Login Page Container */
+  .loginp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  /* Login Form Box */
+  .loginf {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 380px;
+    animation: slideIn 0.5s ease-in-out;
+  }
+  
+  /* Slide-in Animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Logo/Icon */
+  .icon {
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #667eea;
+  }
+  
+  /* Welcome Text */
+  .lp {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .lp p {
+    font-size: 15px;
+    color: #666;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sign {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  /* Labels & Inputs */
+  label {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #444;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Input Focus Effect */
+  input:focus {
+    border-color: #667eea;
+    background: #fff;
+  }
+  
+  /* Buttons */
+  .but {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  button:first-child {
+    background: #667eea;
+  }
+  
+  button:first-child:hover {
+    background: #5a67d8;
+    transform: scale(1.05);
+  }
+  
+  button:last-child {
+    background: #ff9800;
+  }
+  
+  button:last-child:hover {
+    background: #e68900;
+    transform: scale(1.05);
+  }
+  
+  /* Link to Registration */
+  .redirect {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .redirect a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .redirect a:hover {
+    color: #5a67d8;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 450px) {
+    .loginf {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    .lp {
+      font-size: 16px;
+    }
+  
+    input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

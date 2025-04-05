@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "id": "c193",
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "password": "esh",
+      "phone": "1230456078"
+    },
+    {
+      "id": "875c",
+      "name": "rja",
+      "email": "raj@gmail.com",
+      "password": "esh",
+      "phone": "545454"
+    }
+  ],
+  "admin": [],
+  "compdata": [
+    {
+      "id": "0e7d",
+      "cname": "Hero MotoCorp",
+      "desc": "The world's largest two-wheeler manufacturer and World's most fuel efficient two-wheeler.",
+      "compimg": "../src/logo assests/hero logo.png",
+      "complogo": "../src/logo assests/hero symlogo.png"
+    },
+    {
+      "id": "178f",
+      "cname": "TVS Motor Company",
+      "desc": "The third-largest two-wheeler manufacturing brand in India.",
+      "compimg": "../src/logo assests/tvs logo.png",
+      "complogo": "../src/logo assests/tvs symlogo.png"
+    },
+    {
+      "id": "8d34",
+      "cname": "Honda Motorcycle",
+      "desc": "A top bike brand in India.  A popular model is the Honda Shine.",
+      "compimg": "../src/logo assests/honda logo.png",
+      "complogo": "../src/logo assests/honda symlogo.png"
+    },
+    {
+      "id": "5a77",
+      "cname": "Bajaj Auto",
+      "desc": "A top bike brand in India. Popular models is the Bajaj Pulsar N160",
+      "compimg": "../src/logo assests/bajaj logo.png",
+      "complogo": "../src/logo assests/bajaj symlogo.png"
+    },
+    {
+      "id": "26f1",
+      "cname": "Royal Enfield",
+      "desc": "A top bike brand in India. A popular model is the Royal Enfield Classic 350.",
+      "compimg": "../src/logo assests/royal logo.jpeg",
+      "complogo": "../src/logo assests/royal rlogo.png"
+    },
+    {
+      "id": "c3ee",
+      "cname": "Yamaha Motors",
+      "desc": "Yamaha Motor India is one of the leading two-wheeler company in India.",
+      "compimg": "../src/logo assests/yahama blogo.png",
+      "complogo": "../src/logo assests/yahama rlogo.png"
+    }
+  ],
+  "mandata": [],
+  "bdata": [
+    {
+      "id": "0c8f",
+      "comp": "TVS Motor Company",
+      "bname": "jbfhjf",
+      "etype": "jgfjhgf",
+      "ftype": "jfghfg",
+      "price": "jgfjgf",
+      "sheight": "hfjhfg",
+      "torque": "gfngf",
+      "mil": "gfjgf",
+      "abs": "jfgfg",
+      "review": "45",
+      "bikeimg": "https://w0.peakpx.com/wallpaper/440/838/HD-wallpaper-2020-verge-ts-bike-motorcycle-ultra-motorcycles-other-motorcycles-motorcycle-bike-2020-verge.jpg"
+    },
+    {
+      "id": "2f40",
+      "comp": "Bajaj Auto",
+      "bname": ",dffd",
+      "etype": "sth",
+      "ftype": "hgyth",
+      "price": "gfgfvd",
+      "sheight": "eytfg",
+      "torque": "fghfgh",
+      "mil": "fhgfh",
+      "abs": "dfg",
+      "review": "2",
+      "bikeimg": "https://w0.peakpx.com/wallpaper/440/838/HD-wallpaper-2020-verge-ts-bike-motorcycle-ultra-motorcycles-other-motorcycles-motorcycle-bike-2020-verge.jpg"
+    },
+    {
+      "id": "0ec9",
+      "comp": "TVS Motor Company",
+      "bname": "Apache RTR 160",
+      "etype": "159.7 ",
+      "ftype": "petrol",
+      "price": "1.2L",
+      "sheight": "13",
+      "torque": "13.85 ",
+      "mil": "47",
+      "abs": "disc",
+      "review": "5",
+      "bikeimg": "https://cdn.bikedekho.com/processedimages/tvs/apache-160/650X420/apache-1606319c53d7f639.jpg?imwidth=400&impolicy=resize"
+    }
+  ],
+  "cont": [
+    {
+      "id": "a53d",
+      "name": "jjhgkyg",
+      "email": "hgd@gmail.com",
+      "message": "ghdhytd",
+      "phoneNumber": "2554"
+    }
+  ]
+}

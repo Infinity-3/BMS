@@ -1,0 +1,43 @@
+.foot{
+    /* position: absolute;
+    bottom: -100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid; */
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    background-color: rgb(219, 219, 219);
+}
+
+.foot hr{
+    height: 2px;
+    width: 500px;
+    background-color: black;
+}
+
+.foot h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.soclink{
+    display: flex;
+    gap: 10px;
+}
+
+.soclink img{
+    width: 25px;
+    object-fit: fill;
+    border-radius: 100%;
+}
+
+.soclink button{
+    border: 0;
+    background-color: transparent;
+}
+
+.soclink img:hover{
+    transform: scale(1.9);
+}

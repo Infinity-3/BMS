@@ -1,0 +1,133 @@
+.compcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* columns: 2 500px; */
+    gap: 20px;
+}
+
+/* .compcard .h1{
+    animation: typing 1s steps(30) forwards ,
+               blink 1s step-end 15 ;
+}
+
+.h1 h1{
+    font-size: 39px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid black;
+    animation: typing 3s steps(22) forwards ,
+               blink 1s step-end 10 ;
+} */
+
+.compcard #ch{
+    font-size: 39px;
+    font-family: "Bona Nova SC",serif;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid black;
+    animation: typing 3s steps(22) forwards ,
+               blink 1s step-end 3 ;
+}
+
+.containerc{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px; 
+    align-self: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    perspective: 10000px;
+    /* columns: 3 500px; */
+}
+
+.ccompcard{
+    width: 250px;
+    height: 300px;
+    /* display: flex; */
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    /* backface-visibility: hidden; */
+}
+
+.fcompcard,.icompcard{
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icompcard{
+    transform: rotateY(180deg);
+    top: -100%;
+    /* margin: 1px; */
+}
+
+.icompcard p,label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+.icompcard label{
+    font-size: 15px;
+    padding: 15px;
+    align-self: center;
+}
+
+.fcompcard img{
+    width: 70%;
+    mix-blend-mode: color;
+    background: white;
+}
+
+.icompcard img{
+    width: 40%; 
+    /* aspect-ratio: 1/1;    */
+    mix-blend-mode: color-burn;
+}
+
+.ccompcard:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px gray;
+}
+
+/* .ccompcard:hover .icompcard{
+    width: 110%;
+    height: 130%;
+} */
+
+
+/*====animations=======*/
+
+@keyframes typing {
+    from{
+        width: 0%;
+    }
+    100%{
+        border-right-color: white;
+    }
+    to{
+        width: 100%;
+    }
+    
+    
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    } 
+    100%{
+        border-right-color: white;
+    }   
+}

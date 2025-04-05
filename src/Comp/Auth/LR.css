@@ -1,0 +1,229 @@
+.loginp{
+    background: url('/src/assets/motocross-3242291_1280.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    /* margin-top: -30px;  */
+    /* white-space: none; */
+}
+
+.loginf{
+    /* margin-top: 12%; */
+    margin: 12% auto;
+    backdrop-filter: blur(10px);
+    width: max-content;
+    border-radius: 30px;
+}
+
+.regp{
+    background: url('https://backiee.com/static/wallpapers/560x315/386271.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.regf{
+    /* margin-top: 12%; */
+    margin: auto;
+    backdrop-filter: blur(10px);
+    width: max-content;
+    border-radius: 30px;
+}
+
+.compcreate{
+    background: url('https://w0.peakpx.com/wallpaper/440/838/HD-wallpaper-2020-verge-ts-bike-motorcycle-ultra-motorcycles-other-motorcycles-motorcycle-bike-2020-verge.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.compcreate .cmp{
+    font-family: "Bona Nova SC";
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.compf{
+    /* margin: auto; */
+    width: max-content;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.bikecp{
+    background: url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmlrZXN8ZW58MHx8MHx8fDA%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bikef{
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.icon{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 90%;
+}
+
+.icon img{
+    width: 3%;
+}
+
+.lp,.bk{
+    /* margin-top: 50px; */
+    font-family: "Bona Nova SC";
+    font-size: 30px;
+    justify-self: center;
+    color: aliceblue;
+}
+
+.bk{
+    font-size: 35px;
+}
+
+.lp p{
+    font-size: 20px;
+    justify-self: center;
+    margin-bottom: 1px;
+    color: aliceblue;
+}
+
+.redirect{
+    font-family: "Dancing Script";
+    justify-self: center;
+    font-size: 19.8px;
+    color: aliceblue;
+}
+
+.redirect a{
+    text-decoration: none;
+    color: gold;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.redirect a:hover label{
+    cursor: pointer;
+    position: relative;
+    top: 1.5px;
+    /* transition: all 0.3s ease; */
+    animation: ani 1s infinite;
+}
+
+@keyframes ani {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(3);
+    }
+}
+
+.sd{
+    /* margin: auto 50px; */
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    /* backdrop-filter: blur(10px); */
+    /* position: relative;
+    top: 100px; */
+    /* margin-bottom: 130px; */
+}
+
+.sign{
+    height: max-content;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 0px;
+    background: transparent;
+    border-radius: 20px;
+    /* box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.sign label{
+    position: relative;
+    top: 15px;
+    font-size: 18px;
+    font-family: Georgia;
+    color: white;
+}
+
+.sign input,select{
+    width: 190px;
+    height: 30px;
+    position: relative;
+    float: right;
+    top: -8px;
+    /* left: 7px; */
+    border: 2px solid lightblue;
+    border-radius: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.sleg{
+    font-size: 24px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.but{
+    display: flex;
+    gap: 30px;
+    align-self: center;
+}
+
+.but button{
+    border: 1px solid rgb(235, 237, 228) ;
+    border-radius: 9px;
+    width: 75px;
+    height: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    align-self: center;
+    color: white;
+}
+
+.but button:hover{
+    cursor: pointer;
+    color: rgb(252, 0, 0);
+}
+
+.hme{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.hme h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-shadow: 1px 1px 10px black;
+}
+
+.hme h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: rgb(38, 0, 255);
+}

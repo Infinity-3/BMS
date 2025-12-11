@@ -98,7 +98,6 @@ navigate("/login");
 -   Image upload
 
 =======
->>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

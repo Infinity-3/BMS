@@ -83,7 +83,11 @@
 
 
 import axios from 'axios'
+<<<<<<< HEAD
 import { useState } from 'react'
+=======
+import React, { useState } from 'react'
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
 import { useNavigate } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 
@@ -91,7 +95,10 @@ const Bcreate = () => {
 
     let navigate=useNavigate()
     let [compname,setCompname]=useState([])
+<<<<<<< HEAD
     // eslint-disable-next-line no-unused-vars
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
     let [bikdet,setBikdet]=useState()
     let [bikedata,setBikedata]=useState({
         comp:'',
@@ -132,7 +139,10 @@ const Bcreate = () => {
                toast.success('Bike-Details Created')
                navigate('/bcard')
             })
+<<<<<<< HEAD
             // eslint-disable-next-line no-unused-vars
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
             .catch((err)=>{
                 toast.err('Enter all fields')
             })

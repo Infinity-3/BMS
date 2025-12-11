@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* eslint-disable no-unused-vars */
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
 import axios from 'axios'
 import React, { useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
@@ -17,12 +20,20 @@ const Register = () => {
 
     let handlesig=(e)=>{
         e.preventDefault()
+<<<<<<< HEAD
         let uname = nme.current.value
+=======
+        let name = nme.current.value
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
         let email = emid.current.value
         let password = pwd.current.value
         let phone = phno.current.value
         let userdata={name,email,password,phone}
+<<<<<<< HEAD
         if (uname && email && password && phone) {
+=======
+        if (name && email && password && phone) {
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
             axios.post(`http://localhost:3000/users`,userdata)
              .then((reset)=>{
               console.log(reset.data)
@@ -39,7 +50,11 @@ const Register = () => {
 
   return (
     <div className='regp'>
+<<<<<<< HEAD
       <div className='icon'><div><img src="../src/assets/tn logo.jpg" alt="icon" /></div></div><br /><br /><br />
+=======
+      <div className='icon'><Icon/></div><br /><br /><br />
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
       <div className="regf"><p className='lp'>Create a account <p> Sign-up for more</p></p>
       <form className='sd' onSubmit={handlesig}>
         <fieldset className='sign'>

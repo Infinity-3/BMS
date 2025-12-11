@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 // /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
 import axios from 'axios'
 import React, { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'

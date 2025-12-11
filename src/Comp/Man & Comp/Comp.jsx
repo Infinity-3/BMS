@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 // /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
 import axios from 'axios'
 import React, { useState } from 'react'
 import './Comp.css'
@@ -8,7 +11,11 @@ const Comp = () => {
 
   let[compcard,setCompcard]=useState([])
 
+<<<<<<< HEAD
   axios.get(`http://localhost:3000/compdata`) // cd Backend ; npx json-server --watch bdb.json --port 3000 ; for run backend
+=======
+  axios.get(`http://localhost:3000/compdata`)
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
   .then((res)=>{setCompcard(res.data)})
   // .catch((err)=>{})
 

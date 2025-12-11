@@ -3,9 +3,12 @@
 2) 'npm i json-server' :- for to install dummy json server.
 
 3) 'npx json-server bdb.json --watch port=3000' :- to activate json server with dummy data and watch for changes or to run backend server.
+<<<<<<< HEAD
 
 4) 'npm i  react-slick slick-carousel' - "https://www.npmjs.com/package/react-responsive-carousel"
 
 5) 'npm i --save react-slick slick-carousel'
 
 6) 'npm i slick-carousel'
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8

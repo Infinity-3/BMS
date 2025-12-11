@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚲 Bike Management System (BMS)
 
 A modern React-based Bike Management System that allows users to browse
@@ -96,6 +97,8 @@ navigate("/login");
 -   Real backend
 -   Image upload
 
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -105,4 +108,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 "# BMS" 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8

@@ -1,6 +1,7 @@
 {
   "users": [
     {
+<<<<<<< HEAD
       "id": "937b",
       "uname": "rajesh",
       "email": "rajesh@gmail.com",
@@ -47,6 +48,20 @@
       "id": "2265",
       "raj@gmail.com": true,
       "username": "username"
+=======
+      "id": "c193",
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "password": "esh",
+      "phone": "1230456078"
+    },
+    {
+      "id": "875c",
+      "name": "rja",
+      "email": "raj@gmail.com",
+      "password": "esh",
+      "phone": "545454"
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
     }
   ],
   "admin": [],
@@ -94,6 +109,10 @@
       "complogo": "../src/logo assests/yahama rlogo.png"
     }
   ],
+<<<<<<< HEAD
+=======
+  "mandata": [],
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
   "bdata": [
     {
       "id": "0c8f",

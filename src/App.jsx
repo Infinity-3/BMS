@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 // /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
+=======
+>>>>>>> 8746ec86588a0c0c04669cf2a8d446d8769825e8
 import React from 'react'
 import Bcreate from './Comp/Bikes/Bcreate'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'

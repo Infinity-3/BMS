@@ -1,0 +1,4 @@
+Imp points
+i. Bike details - cc,price,engine-type,fuel-type,seat-height,torque,avg-mileage,disc,reviews with stars & review no.
+ii. links
+    tvs - https://www.tvsmotor.com/

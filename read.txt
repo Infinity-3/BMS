@@ -1,0 +1,11 @@
+1) 'npm install react-router-dom@latest react-icons axios react-toastify' :- to install required libs in one line.
+
+2) 'npm i json-server' :- for to install dummy json server.
+
+3) 'npx json-server bdb.json --watch port=3000' :- to activate json server with dummy data and watch for changes or to run backend server.
+
+4) 'npm i  react-slick slick-carousel' - "https://www.npmjs.com/package/react-responsive-carousel"
+
+5) 'npm i --save react-slick slick-carousel'
+
+6) 'npm i slick-carousel'
